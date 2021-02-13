@@ -30,3 +30,7 @@ console.log(list);
 for (i in list){     //getting every element
     console.log(list[i]);
 }
+
+
+var count = "Hello World! How are you?"; //string to array convert
+console.log (count.split(" "));
