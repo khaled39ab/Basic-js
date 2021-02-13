@@ -30,6 +30,3 @@ console.log(list);
 for (i in list){     //getting every element
     console.log(list[i]);
 }
-
-var count = list.split("");
-console.log (count.length);
