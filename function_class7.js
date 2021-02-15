@@ -1,37 +1,43 @@
-function hello (name){  //function example
+//function example
+function hello (name){  
     console.log(name);
 }
 hello("Modhu");
 
 
-function add(num1, num2){  //return example
+//return example
+function add(num1, num2){  
     return num1 + num2
 }
 var result = add (20, 10);
 console.log (result);
 
 
-function hello1 (names = "Anonymous"){ //default value set
+//default value set
+function hello1 (names = "Anonymous"){ 
     console.log(names)
 }
 hello1();
 hello1("Jodhu")
 
 
-function hello2 (name1, name2){  //undefiend parameter
+//undefiend parameter
+function hello2 (name1, name2){  
     console.log(name1, name2);
 }
 hello2('Kodhu')
 
 
-function hello3 (...name3){  //spread parameter
+//spread parameter
+function hello3 (...name3){  
     console.log(name3);
 }
 hello3('Kodhu', 'Modhu');
 hello3('Jodhu', 'Modhu', 'Kodhu')
 
 
-var i=12;              //local variable vs global variable
+//local variable vs global variable
+var i=12;              
 function something(){
     i=10;
     console.log(i);
@@ -40,4 +46,14 @@ something();
 console.log(i);
 
 
-var sum = (function(){console.log (20 + 10);})(); //Immediately Invoked Function Expressions(IIFE)
+//Immediately Invoked Function Expressions(IIFE)
+var sum = (function(){console.log (20 + 10);})(); 
+
+
+//arrow function
+var square = numb => numb * numb;
+var add2 = (numb1, numb2)=> numb1 + numb2;
+var math = (x, y) => {
+    var sum2 = x + y;
+    return sum2 * 2;
+}
