@@ -66,4 +66,4 @@ console.log (Math.pow(8,2)); // the power
 
 console.log (Math.min(5,45,54,2,65,13,24)); //find minimum number
 
-console.log (Math.max(5,45,54,2,65,13,24));
+console.log (Math.max(5,45,54,2,65,13,24)); //find maximum number
