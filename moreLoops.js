@@ -47,4 +47,11 @@ number.sort(function (a, b) {
     return a - b
 })
 
+// console.log(number);
+
+// ----------------   reverse 
+number.sort(function (a, b) {
+    return b - a
+})
+
 console.log(number);
